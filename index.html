@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplebar/5.3.6/simplebar.min.css" integrity="sha512-uZTwaYYhJLFXaXYm1jdNiH6JZ1wLCTVnarJza7iZ1OKQmvi6prtk85NMvicoSobylP5K4FCdGEc4vk1AYT8b9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header_top">
+            <div class="container">
+                <nav>
+                    <ul class="header_top-list flex">
+                        <li class="header_top-item"><a class="header_top-link flex" href="/"><img class="header_top-item-img" src="/img/back.png" alt="back"><button>Назад</button></a></li>
+                        <li class="header_top-item"><a class="header_top-link" href="/"><img class="header_top-logo" src="/img/logo.png" alt="logo"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="container flex">
+                <div class="header_bottom-left">
+                    <h1 class="header_bottom-title">Рекомендации будущего</h1>
+                    <p class="header_bottom-text">Составь собственную программу или выбери из предлагаемых вариантов от Coral Club</p>
+                    <!-- <div class="header_bottom-description">
+                        <span>Ваш промокод:</span>
+                        <a href="/" class="header_bottom-promo flex">
+                            CORALAPP
+                            <img src="img/main_copy.png" alt="копировать ссылку">
+                        </a>
+                    </div> -->
+                    <div class="header_bottom-shops">
+                        <!-- <a href="https://apps.apple.com/ru/app/coral-club/id1437262333" class="footer__bottom_link footer__bottom_link--showed appropriate__apple" target="_blank"><img src="img/appstore.png" alt="" class="footer__bottom_img"></a>
+                    
+                    <a href="https://play.google.com/store/apps/details?id=com.coralclub.distribution.app&hl=ru" class="footer__bottom_link footer__bottom_link--hidden appropriate__android" target="_blank"><img src="img/googlestore.png" alt="" class="footer__bottom_img"></a>
+                    
+                    <a href="https://apps.rustore.ru/app/com.coralclub.distribution.app" class="footer__bottom_link footer__bottom_link--hidden appropriate__others" target="_blank"><img src="img/rustore.png" alt="" class="footer__bottom_img"></a> -->
+                        <a href="https://apps.apple.com/ru/app/coral-club/id1437262333" class="header_bottom-shops-link" target="_blank"><img src="/img/appstore.png" alt=""></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.coralclub.distribution.app&hl=ru" class="header_bottom-shops-link" target="_blank"><img src="/img/googlestore.png" alt=""></a>
+                        <a href="https://apps.rustore.ru/app/com.coralclub.distribution.app" class="header_bottom-shops-link" target="_blank"><img src="/img/rustore.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="header_bottom-right">
+                    <img src="img/slider_main.png" alt="phone">
+                </div> 
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- <div class="slider"></div> -->
+        <div class="slider">
+            <div class="container">
+
+                <div class="slider_section-static">
+                    <div class="slider_section flex">
+                        <div class="slider_section-img">
+                            <img src="img/slider_1.png" alt="img">
+                        </div>
+                        <div class="slider_section-content">
+                            <h2 class="slider_section-title">Поделиться</h2>
+                            <p class="slider_section-text">Поделись готовыми программами за пару кликов!</p>
+                        </div>
+                    </div>
+
+                    <div class="slider_section flex">
+                        <div class="slider_section-content">
+                            <h2 class="slider_section-title">Напомнить</h2>
+                            <p class="slider_section-text">Приложение напомнит о приеме продуктов и поможет достичь лучшего результата</p>
+                        </div>
+                        <div class="slider_section-img">
+                            <img src="img/slider_main.png" alt="img">
+                        </div>
+                    </div>
+                    
+                    <div class="slider_section flex">
+                        <div class="slider_section-img">
+                            <img src="img/slider_3.png" alt="img">
+                        </div>
+                        <div class="slider_section-content">
+                            <h2 class="slider_section-title">Создать</h2>
+                            <p class="slider_section-text">Составь собственную программу или выбери из предлагаемых вариантов от Coral Club</p>
+                        </div>
+                    </div>
+
+                    <div class="slider_section flex">
+                        <div class="slider_section-content">
+                            <h2 class="slider_section-title">Наблюдать</h2>
+                            <p class="slider_section-text">Покажет профили присоединившихся к программам и их самочувствие.</p>
+                        </div>
+                        <div class="slider_section-img">
+                            <img src="img/slider_4.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Горизонтальный свайпер (видим до разрешения 1280px включительно) -->
+                <div class="swiper swiper__gor">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="slider_gor flex">
+                                <div class="slider_gor-left">
+                                    <h2 class="slider_gor-title">Поделиться</h2>
+                                    <p class="slider_gor-text">
+                                        Поделись готовыми программами за пару кликов!
+                                    </p>
+                                </div>
+                                <div class="slider_gor-right">
+                                    <img src="img/slider_1.png" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider_gor flex">
+                                <div class="slider_gor-left">
+                                    <h2 class="slider_gor-title">Напомнить</h2>
+                                    <p class="slider_gor-text">
+                                        Приложение напомнит о приеме продуктов и поможет достичь лучшего результата
+                                    </p>
+                                </div>
+                                <div class="slider_gor-right">
+                                    <img src="img/slider_main.png" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider_gor flex">
+                                <div class="slider_gor-left">
+                                    <h2 class="slider_gor-title">Создать</h2>
+                                    <p class="slider_gor-text">
+                                        Составь собственную программу или выбери из предлагаемых вариантов от Coral Club
+                                    </p>
+                                </div>
+                                <div class="slider_gor-right">
+                                    <img src="img/slider_3.png" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider_gor flex">
+                                <div class="slider_gor-left">
+                                    <h2 class="slider_gor-title">Наблюдать</h2>
+                                    <p class="slider_gor-text">
+                                        Покажет профили присоединившихся к программам и их самочувствие.
+                                    </p>
+                                </div>
+                                <div class="slider_gor-right">
+                                    <img src="img/slider_4.png" alt="img">
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+
+        <section class="rec">
+            <div class="container">
+                <h2 class="main_title rec_title">Рекомендации будущего</h2>
+                <div class="rec_block flex">
+                    <div class="rec_block-box">
+                        <div class="rec_box-img">
+                            <!-- <img src="img/red_vector.png" alt="img"> -->
+                        </div>
+                        <p class="rec_box-text">
+                            Авторизация в приложении по существующему номеру ЧК
+                        </p>
+                    </div>
+                    <div class="rec_block-box">
+                        <div class="rec_box-img">
+                            <!-- <img src="img/red_vector.png" alt="img"> -->
+                        </div>
+                        <p class="rec_box-text">
+                            Анкетирование пользователя перед использованием приложения
+                        </p>
+                    </div>
+                    <div class="rec_block-box">
+                        <div class="rec_box-img">
+                            <!-- <img src="img/red_vector.png" alt="img"> -->
+                        </div>
+                        <p class="rec_box-text">
+                            Составление персональных программ
+                        </p>
+                    </div>
+                    <div class="rec_block-box">
+                        <div class="rec_box-img">
+                            <!-- <img src="img/red_vector.png" alt="img"> -->
+                        </div>
+                        <p class="rec_box-text">
+                            Возможность делиться созданной программой
+                        </p>
+                    </div>
+                    <div class="rec_block-box">
+                        <div class="rec_box-img">
+                            <!-- <img src="img/red_vector.png" alt="img"> -->
+                        </div>
+                        <p class="rec_box-text">
+                            Отслеживание результатов и контроль самочувствия
+                        </p>
+                    </div>
+                    <div class="rec_block-box">
+                        <div class="rec_box-img">
+                            <!-- <img src="img/red_vector.png" alt="img"> -->
+                        </div>
+                        <p class="rec_box-text">
+                            Реализация PUSH-уведомлений
+                        </p>
+                    </div>
+                    <div class="rec_block-box">
+                        <div class="rec_box-img">
+                            <!-- <img src="img/red_vector.png" alt="img"> -->
+                        </div>
+                        <p class="rec_box-text">
+                            Возможность проходить ПЭКи Coral Club согласно расписанию
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="langs">
+            <div class="container">
+                <h2 class="main_title langs_title">Доступные языки Coral Health</h2>
+                <div class="langs_block flex">
+                    <div class="langs_block-box">
+                        <span class="langs_span">Русский</span>
+                        <img src="img/flags/ru.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Венгерский</span>
+                        <img src="img/flags/hu.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Испанский</span>
+                        <img src="img/flags/es.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Словенский</span>
+                        <img src="img/flags/si.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Румынский</span>
+                        <img src="img/flags/ro.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Польский</span>
+                        <img src="img/flags/pl.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Литовский</span>
+                        <img src="img/flags/lt.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Латышский</span>
+                        <img src="img/flags/lv.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Итальянский</span>
+                        <img src="img/flags/it.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Болгарский</span>
+                        <img src="img/flags/bg.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Немецкий</span>
+                        <img src="img/flags/de.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Эстонский</span>
+                        <img src="img/flags/ee.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Английский</span>
+                        <img src="img/flags/gb.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Чешский</span>
+                        <img src="img/flags/cz.svg" alt="lang_" class="langs_img">
+                    </div>
+                    <div class="langs_block-box">
+                        <span class="langs_span">Украинский</span>
+                        <img src="img/flags/ua.svg" alt="lang_" class="langs_img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sale">
+            <div class="container">
+                <div class="sale__top">
+                  <p class="sale__top-text">-10% на первый заказ<span>*</span> через мобильное приложение по промокоду:</p>
+                  <a class="sale__top-link">CORALAPP 
+                      <img src="img/footer_copy.png" alt="copy-link">
+                      <span class="sale__tooltip">Копировать</span>
+                  </a>
+                  <p class="sale__note"><span>*</span> Действует 1 раз на первый заказ от 5000 руб., оформленный <br> в мобильном приложении Coral Club.</p>
+                </div>
+                <div class="sale__middle" style="margin-top: 0;"></div>
+                <div class="sale__bottom">
+                  <div class="sale__bottom_social">
+                    
+                    <a href="https://apps.apple.com/ru/app/coral-club/id1437262333" class="footer__bottom_link footer__bottom_link--showed appropriate__apple" target="_blank"><img src="img/appstore.png" alt="" class="footer__bottom_img"></a>
+                    
+                    <a href="https://play.google.com/store/apps/details?id=com.coralclub.distribution.app&hl=ru" class="footer__bottom_link footer__bottom_link--hidden appropriate__android" target="_blank"><img src="img/googlestore.png" alt="" class="footer__bottom_img"></a>
+                    
+                    <a href="https://apps.rustore.ru/app/com.coralclub.distribution.app" class="footer__bottom_link footer__bottom_link--hidden appropriate__others" target="_blank"><img src="img/rustore.png" alt="" class="footer__bottom_img"></a>
+                    
+                  </div>
+                  <a href="#" class="sale__bottom_logo"><img src="img/logo_footer.png" alt="coral-club"></a>
+                </div>
+              </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3 class="footer_title">Нашли баг или хотите предложить улучшение?</h3>
+            <p class="footer_text">Пишите в наш специальный канал: <a class="footer_link flex" href="#"><img src="img/footer_bag.svg" alt="bag"><button>CoralHealth</button></a></p>
+        </div>
+    </footer>
+    
+    <script src="js/app.js" defer></script>
+    <script src="js/swiper.js" defer></script>
+</body>
+</html>
