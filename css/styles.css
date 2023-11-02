@@ -206,7 +206,7 @@ button {
 }
 
 .rec_box-img {
-    background-image: url('/img/red_vector.png');
+    background-image: url('../img/red_vector.png');
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
