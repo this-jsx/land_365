@@ -154,9 +154,21 @@ button {
     height: 100%;
 }
 
+.header_bottom-shops-link--mx-8, .footer__bottom_link--mx-8 {
+    margin: 0 8px;
+}
+
 .header_bottom-shops-link img {
     max-width: 18.9rem;
     max-height: 5.6rem;
+}
+
+.header_bottom-span {
+    display: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 
@@ -182,20 +194,18 @@ button {
     justify-content: space-between;
 }
 
-.rec_box-img img {
-    width: 32px;
-    height: 20px;
-    padding: 24px;
-    border-radius: 50%;
+.rec_box-img {
+    max-width: 88px;
+    width: 88px;
 }
 
-.rec_box-img {
-    background: #FFF5F5;
+.rec_box-img img {
+    width: max-content;
+    /* max-width: max-content; */
 }
 
 .rec_block-box {
     display: flex;
-    /* justify-content: space-between; */
     max-width: 548px;
     width: 548px;
     align-items: center;
@@ -205,15 +215,6 @@ button {
     margin-bottom: 2.4rem;
 }
 
-.rec_box-img {
-    background-image: url('../img/red_vector.png');
-    background-repeat: no-repeat;
-    width: 80px;
-    height: 80px;
-    background-position: center;
-    background-size: 32px;
-    border-radius: 50%;
-}
 
 .main_title {
     font-size: 40px;
@@ -412,3 +413,7 @@ footer .container {
 
 
 
+
+.swiper-pagination-bullet-active {
+    background: #FC6368;
+}
