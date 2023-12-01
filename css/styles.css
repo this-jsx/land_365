@@ -62,7 +62,7 @@ button {
 
 /* header top */
 .header_top {
-    background: rgba(0,0,0,0.3 );
+    /* background: rgba(0,0,0,0.3 ); */
 }
 
 .header_top .container {
@@ -349,7 +349,7 @@ button {
     background-position: center;
     background-size: contain;
     margin: 8rem auto 6.4rem;
-    margin-top: 8rem !important;
+    /* margin-top: 8rem !important; */
 }
 
 .sale__bottom_logo {
