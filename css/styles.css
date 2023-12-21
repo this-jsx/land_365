@@ -3,6 +3,7 @@
 :root {
     --red: #FF5D61;
     --grey: #807D98;
+    --green:#00B289;
     --footer_grey: #D3D2D7;
     --white: #fff;
     --dark: #001A34;
@@ -55,7 +56,7 @@ button {
 /* header */
 
 .header {
-    background: var(--red);
+    background: var(--green);
     /* height: 100vh; */
 }
 
