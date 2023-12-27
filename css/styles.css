@@ -9,7 +9,9 @@
     --dark: #001A34;
     --dark_2: #2E2A28;
     --grey_light: #fafafa;
-    --sale: #F56382
+    --sale: #F56382;
+    --header_bg_color: #f3d8c6;
+    --header_text_color: #39444c;
 }
 
 * {
@@ -56,7 +58,7 @@ button {
 /* header */
 
 .header {
-    background: var(--green);
+    background: var(--header_bg_color);
     /* height: 100vh; */
 }
 
@@ -82,7 +84,8 @@ button {
 
 .header_top-item button {
     margin-left: 1rem;
-    color: var(--white);
+    /* color: var(--white); */
+    color: var(--header_text_color);
     font-family: 'Inter';
 }
 
@@ -102,7 +105,7 @@ button {
 /* header bottom */
 
 .header_bottom {
-    color: var(--white);
+    color: var(--header_text_color);
 }
 
 .header_bottom .container {
@@ -162,6 +165,7 @@ button {
 .header_bottom-shops-link img {
     max-width: 18.9rem;
     max-height: 5.6rem;
+    min-width: 188px;
 }
 
 .header_bottom-span {
@@ -175,6 +179,9 @@ button {
 
 
 /* slider */
+.slider {
+    background: #fafcf8;
+}
 
 
 
