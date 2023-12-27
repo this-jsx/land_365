@@ -97,6 +97,12 @@ button {
     cursor: pointer;
 }
 
+.header_top-link button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 .header_top-logo {
     width: 11.3rem;
 }
