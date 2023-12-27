@@ -40,22 +40,22 @@ const visibleShopLinkFooter = document.querySelector('.footer__bottom_link--show
 
 if (window.screen.width < 1024) {
   if (/iPhone/i.test(navigator.userAgent)) {
-    visibleShopImgHeader.src = 'img/appstore.svg';
+    visibleShopImgHeader.src = 'img/appstore.png';
     visibleShopLinkHeader.href = 'https://apps.apple.com/ru/app/coral-club/id1437262333'
 
-    visibleShopImgFooter.src = 'img/appstore.svg';
+    visibleShopImgFooter.src = 'img/appstore.png';
     visibleShopLinkFooter.href = 'https://apps.apple.com/ru/app/coral-club/id1437262333'
   } else if (/Android/i.test(navigator.userAgent)) {
-    visibleShopImgHeader.src = 'img/playmarket.svg';
+    visibleShopImgHeader.src = 'img/googlestore.png';
     visibleShopLinkHeader.href = 'https://play.google.com/store/apps/details?id=com.coralclub.distribution.app&hl=ru'
 
-    visibleShopImgFooter.src = 'img/playmarket.svg';
+    visibleShopImgFooter.src = 'img/googlestore.png';
     visibleShopLinkFooter.href = 'https://play.google.com/store/apps/details?id=com.coralclub.distribution.app&hl=ru'
   } else {
-    visibleShopImgHeader.src = 'img/rustore.svg';
+    visibleShopImgHeader.src = 'img/rustore.png';
     visibleShopLinkHeader.href = 'https://apps.rustore.ru/app/com.coralclub.distribution.app'
 
-    visibleShopImgFooter.src = 'img/rustore.svg';
+    visibleShopImgFooter.src = 'img/rustore.png';
     visibleShopLinkFooter.href = 'https://apps.rustore.ru/app/com.coralclub.distribution.app'
   }
 }
