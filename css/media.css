@@ -302,7 +302,7 @@
 
 @media screen and (max-width: 632px) {
     .header_bottom .container {
-        padding: 40px 24px;
+        padding: 40px 24px 30px;
     }
     .header_bottom-title {
         font-size: 40px;
@@ -313,6 +313,7 @@
     }
     .rec_title {
         margin-top: 24px;
+        width: 60%;
     }
     .rec_block {
         justify-content: center;
@@ -320,6 +321,7 @@
     }
     .slider .container {
         padding: 24px;
+        padding-top: 40px;
     }
 
 
@@ -332,6 +334,7 @@
         width: inherit;
         margin-top: 6rem;
         padding: 24px;
+        padding-left: 0;
     }
     .slider_gor-right {
         width: 210px;
@@ -349,13 +352,19 @@
 
 
     .langs .container {
-        padding: 24px;
+        padding: 40px 24px;
     }
     .langs_title {
-        margin-top: 40px;
+        margin-top: 0;
     }
     .langs_block {
         margin-top: 32px;
+    }
+    .langs_block-box:not(:last-child) {
+        margin-bottom: 8px;
+    }
+    .langs_block-box:last-child {
+        margin-bottom: 0;
     }
 
 
@@ -370,6 +379,11 @@
         align-items: flex-start;
         height: 170px;
         padding: 24px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .rec_block-box:not(:last-child) {
+        margin-bottom: 1.6rem;
     }
     /* .rec_box-img {
         width: 48px;

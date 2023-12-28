@@ -226,6 +226,9 @@ button {
     background: #fff;
     padding: 32px;
     border-radius: 20px;
+    /* margin-bottom: 2.4rem; */
+}
+.rec_block-box:not(:last-child) {
     margin-bottom: 2.4rem;
 }
 
